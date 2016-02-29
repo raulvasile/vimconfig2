@@ -18,8 +18,15 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'elzr/vim-json'
 Plugin 'itchyny/lightline.vim'
 Plugin 'jelera/vim-javascript-syntax'
+Plugin 'miyakogi/conoline.vim'
+Plugin 'rust-lang/rust.vim'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'mbbill/undotree'
+Plugin 'rizzatti/dash.vim'
 
 " Deactivated plugins 
+" Plugin 'leafgarland/typescript-vim'
+" Plugin 'burnettk/vim-angular'
 " Plugin 'Valloric/YouCompleteMe'
 " Plugin 'bling/vim-airline'
 
