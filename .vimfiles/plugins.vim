@@ -31,6 +31,7 @@ Plugin 'Raimondi/delimitMate'
 Plugin 'tpope/vim-markdown'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'moll/vim-node'
 
 " Deactivated plugins
 " Plugin 'leafgarland/typescript-vim'
