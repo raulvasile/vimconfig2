@@ -26,6 +26,11 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'wlangstroth/vim-racket'
 Plugin 'ervandew/supertab'
 Plugin 'marijnh/tern_for_vim'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Raimondi/delimitMate'
+Plugin 'tpope/vim-markdown'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 " Deactivated plugins
 " Plugin 'leafgarland/typescript-vim'
@@ -39,6 +44,7 @@ Plugin 'marijnh/tern_for_vim'
 " -----------------------------
 " Plugin settings
 " -----------------------------
+imap <C-c> <CR><Esc>O
 map <C-n> :NERDTreeToggle<CR>
 
 let g:molokai_original=1
@@ -139,3 +145,14 @@ let g:neocomplete#enable_at_startup = 1
 let g:tern_map_keys=1
 "show argument hints
 let g:tern_show_argument_hints='on_hold'
+
+"set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|target|dist)|(\.(swp|ico|git|svn))$'
+
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsEditSplit="vertical"
+autocmd FileType js UltiSnipsAddFiletypes javascript-jasmine
