@@ -4,6 +4,10 @@ set ffs=unix,dos,mac
 set list 
 set listchars=tab:▸\ ,eol:¬
 
+set encoding=utf8
+set noswapfile
+set ffs=unix,dos,mac
+
 " ---------------------------
 " Text, tab and indent related 
 " ---------------------------
@@ -204,9 +208,6 @@ set ffs=unix,dos,mac
 " ---------------------------
 set expandtab
 set smarttab
-
-set shiftwidth=2
-set tabstop=2
 
 set lbr
 set tw=500
