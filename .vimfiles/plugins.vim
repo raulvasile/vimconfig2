@@ -32,6 +32,7 @@ Plugin 'tpope/vim-markdown'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'moll/vim-node'
+Plugin 'elixir-lang/vim-elixir'
 
 " Deactivated plugins
 " Plugin 'leafgarland/typescript-vim'
